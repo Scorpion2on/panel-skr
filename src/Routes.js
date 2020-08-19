@@ -1,7 +1,6 @@
 import React from "react";
 import { Switch } from "react-router-dom";
-import { Home, Login } from "pages";
-import { TestLayout } from "layouts";
+import { Home, LoginPage } from "pages";
 import { GuestRoute } from "components/routes";
 
 const Routes = () => {
@@ -9,11 +8,9 @@ const Routes = () => {
     <Switch>
       <GuestRoute exact 
       component={Home} 
-      layout={TestLayout} 
       path="/" />
       <GuestRoute
-        component={Login}
-        layout={TestLayout}
+        component={LoginPage}
         path="/login"
       />
     </Switch>

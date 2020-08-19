@@ -17,7 +17,7 @@ const GuestRoute = (props) => {
             <Component {...matchProps} />
           </Layout>
         ) : (
-          <Redirect to="/users" />
+          <Redirect to="/" />
         )
       }
     />
