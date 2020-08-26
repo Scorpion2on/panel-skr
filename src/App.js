@@ -1,6 +1,6 @@
 import React from 'react';
-import { ThemeProvider } from "@material-ui/styles";
-import theme from "./theme";
+// import { ThemeProvider } from "@material-ui/styles";
+// import theme from "./theme";
 import './App.css'
 import Header from './components/Header';
 import Navbar from './components/Navbar';
