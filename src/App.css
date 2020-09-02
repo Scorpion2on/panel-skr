@@ -45,17 +45,7 @@
   grid-template-columns: 2fr 10fr;
   /* grid-gap: 10px; */
 }
-.header {
-  grid-area: h;
-  background-color: #303133;
-  padding: 10px 36px 10px 36px;
-}
-.header img {
-   width: auto;
-   height: 100%;
-   display: left;
-   margin: auto;
-}
+
 .menu {
   /* display: block;
     list-style: none;
@@ -73,11 +63,4 @@
 .menu-item-1 {
 
 }
-.nav {
-  grid-area: n;
-  background-color: burlywood;
-}
-.content {
-  grid-area: c;
-  background-color: blue;
-}
+
