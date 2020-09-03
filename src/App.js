@@ -1,12 +1,10 @@
 import React from 'react';
-// import { ThemeProvider } from "@material-ui/styles";
-// import theme from "./theme";
 import './App.css'
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Content from './components/Content';
-import Profile from './components/Profile';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+import Content from './components/Content/Content';
+import Profile from './components/Profile/Profile';
 
 const App = () => {
   return (
