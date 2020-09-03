@@ -12,9 +12,9 @@ const App = () => {
       <Header />
       <Navbar />
       <Profile />
-      <Content />
-      <Footer />
-      </div>
+      {/* <Content />
+      <Footer /> */}
+    </div>
   );
 };
 export default App;
