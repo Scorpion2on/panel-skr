@@ -3,7 +3,7 @@ import './Content.css';
 
 
 const Content = () => {
-    return <header className='content'>
+    return <header>
         content
       </header> 
 }

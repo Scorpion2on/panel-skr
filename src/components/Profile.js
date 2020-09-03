@@ -1,9 +1,9 @@
 import React from 'react';
-import './Profile.css';
+import classes from './Profile.module.css';
 
 
 const Profile = () => {
-    return <div>
+    return <div className='content'>
     <div>
        My posts
        <div>
